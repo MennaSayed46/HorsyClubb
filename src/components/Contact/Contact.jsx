@@ -70,7 +70,7 @@ export default function Contact() {
 
                 <div className="details">
                   <p className={`${style.title} text-gray-500`}>Email:</p>
-                  <p className={`${style.details} text-[#a07253] font-bold`}>Mennaabdelateef910@gmail.com</p>
+                  <p className={`${style.details} text-[#a07253] font-bold`}>MennaSayed</p>
                 </div>
               </div>
             </a>
