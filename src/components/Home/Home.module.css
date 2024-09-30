@@ -1,0 +1,111 @@
+.rightSide {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+
+}
+
+.leftSide {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: fit-content;
+
+}
+
+.unique {
+    font-family: "Yeseva One", serif;
+    font-size: 55px;
+    line-height: 75px;
+}
+
+@media screen and (max-width: 768px) {
+    .unique {
+        font-size: 50px;
+        line-height: 54px;
+    }
+
+    .greetings {
+        font-size: 14px;
+        line-height: 20px;
+    }
+   
+}
+@media screen and (min-width: 768px) {
+  
+
+    .greetings {
+        font-family: "Yeseva One", serif;
+        font-size: 36px;
+        line-height: 50px;
+    }
+}
+
+.desc {
+    font-size: 16px;
+}
+.pricing{
+    font-size: 36px;
+    line-height: 50px;
+}
+.describtion{
+    transition: all 0.2s ease-in-out;
+}
+
+.item:hover .describtion{
+    transform: translateY(-10px);
+}
+
+.item:hover img {
+    filter: brightness(50%);
+}
+
+
+.item:hover .pricing{
+    color: #a07253;
+}
+
+
+.number{
+    font-family: "Yeseva One", serif;
+    font-size: 48px;
+    line-height: 80px;
+}
+
+
+.firstRideDetails{
+    font-family: "Yeseva One", serif;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+
+.clocks,.location,.detailsOfCourses{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    color: #191c44;
+}
+
+.courses{
+    font-family: "Yeseva One", serif;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.title{
+    font-family: "Yeseva One", serif;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.private{
+    font-family: "Yeseva One", serif;
+    font-size: 54px;
+    line-height: 70px;
+
+}
+
+.connections:hover .icon{
+    background-color: #191c44;
+}

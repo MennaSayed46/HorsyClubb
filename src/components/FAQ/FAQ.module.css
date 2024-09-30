@@ -1,0 +1,41 @@
+.faq{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    
+}
+.desc{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    /* color:; */
+}
+
+.questions{
+    font-family: "Yeseva One", serif;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.FAQS{
+    font-family: "Yeseva One", serif;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.ItemTitle{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+.ItemActiveTitle{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+.itemDesc{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(25, 28, 68, 0.85);
+}
