@@ -1,0 +1,25 @@
+.btn:hover .rightSide {
+    background-color: #a07253;
+    color: white;
+}
+
+.btn:hover .leftSide {
+    background-color: #191c45;
+    color: white;
+}
+
+.rightSide,
+.leftSide {
+    transition: all 0.25s ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+    .pages:hover div {
+        display: block;
+    }
+
+    ul .listItem:hover{
+        border-bottom: solid 2px #a07253;
+    }
+
+}

@@ -1,0 +1,35 @@
+.slick-prev,
+.slick-next {
+    background-color: #a07253 !important;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    font-family: "Yeseva One", serif;
+    font-size: 30px;
+    line-height: 42px;
+}
+.aboutUs {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    color: #191c44;
+}
+
+.services{
+    font-size: 18px;
+    line-height: 36px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.offer{
+    font-size: 36px;
+    line-height: 50px;
+    font-family: "Yeseva One", serif;
+}
+

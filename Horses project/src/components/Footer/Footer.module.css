@@ -1,0 +1,38 @@
+
+.title{
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  animation: expandWidth 0.5s;
+
+}
+.icon
+icon:hover .title{
+  opacity: 1;
+}
+
+
+@keyframes expandWidth {
+  from{
+    width: 0;
+    height: 50%;
+  }
+  to{
+    width: 100%;
+    height: 1005;
+  }
+  
+}
+
+.links{
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  color:#191c44;
+}
+
+.horsyClub{
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  color:#191c44;
+}

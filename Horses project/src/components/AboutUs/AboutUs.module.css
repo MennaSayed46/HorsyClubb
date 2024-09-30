@@ -1,0 +1,82 @@
+.about {
+    font-family: "Yeseva One", serif;
+    font-size: 30px;
+    line-height: 42px;
+}
+.aboutUs {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    color: #191c44;
+}
+.ourExperts {
+    font-family: "Yeseva One", serif;
+    font-size: 36px;
+    line-height: 50px;
+    color: #191c44;
+}
+.list i {
+    transition: all 0.2s ease;
+}
+.list:hover i {
+    transform: scale(1.1);
+    background-color: #191c44;
+}
+.header,.newsletter,.results {
+    font-family: "Yeseva One", serif;
+    font-size: 30px;
+    line-height: 40px;
+}
+.title {
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    animation: expandWidth 0.5s;
+}
+.icon:hover .title {
+    opacity: 1;
+}
+.icon i{
+    transition: all 0.1s ease;
+}
+.icon:hover i {
+    transform: scale(1.1);
+}
+.team:hover{
+    transform: translateY(-10px);
+}
+
+.team:hover img{
+    filter: brightness(50%);
+
+}
+.teamName{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 28px;
+    line-height: 39px;
+    color: #191c44;
+}
+.job{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #191c44;
+}
+.describtionOfNewsletter,.describtionOfResults{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    color: #191c44;
+}
+
+.counter:hover div div{
+   background-color: #191c44;
+}
+.number{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 110px;
+}
+
+.SideOfCounter{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 60px;
+}
